@@ -16,10 +16,13 @@ While there are some existing resources to help front end developers in preparin
 Answers to [Front-end Job Interview Questions - HTML Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions#html-questions). Pull requests for suggestions and corrections are welcome!
 
 #### What does a `doctype` do?
+#### `doctype` 做了什么？
 
 `doctype` is an abbreviation for document type. It is a declaration used in HTML5 to distinguish between a standards-compliant parsing mode and a quirks parsing mode. Hence its presence tells the browser to parse and render the webpage in standards mode.
+`doctype` 是document type的缩写。这是HTML5区分标准模式和怪异模式的声明。因此他的存在是告诉浏览器以标准模式解释以及渲染网页。
 
 Moral of the story, just add `<!DOCTYPE html>` to the start of your page.
+这个故事告诉我们，在页面前面加上 `<!DOCTYPE html>` 
 
 ###### References
 
@@ -27,10 +30,12 @@ Moral of the story, just add `<!DOCTYPE html>` to the start of your page.
 - https://www.w3.org/QA/Tips/Doctype
 
 #### What's the difference between full standards mode, almost standards mode and quirks mode?
+#### 全标准模式、半标准模式、怪异模式的区别是 ？ （非标准翻译）
 
 - **Quirks mode** - Layout emulates non-standard behavior in Netscape Navigator 4 and Internet Explorer 5. This is essential in order to support websites that were built before the widespread adoption of web standards. The list of quirks can be found [here](https://developer.mozilla.org/en-US/docs/Mozilla/Mozilla_quirks_mode_behavior).
 - **Full standards mode** - The layout behavior is the one described by the HTML and CSS specifications.
 - **Almost standards mode** - There are only a very small number of quirks implemented. Differences can be found [here](https://developer.mozilla.org/en-US/docs/Gecko's_Almost_Standards_Mode).
+
 
 ###### References
 
